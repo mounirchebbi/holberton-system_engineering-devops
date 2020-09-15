@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -ne 'print if ($.%2)'
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
