@@ -3,7 +3,6 @@
 # sleep 2 between iterations
 # displays "I am invincible!!!" between each iterations                    
 
-
 while true
 do
   echo "To infinity and beyond"
