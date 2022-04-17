@@ -1,4 +1,4 @@
-# SSH client config file to connect to a server with RSA key.
+# Setup a SSH client configuration file to connect to a server with RSA key.
 
 file_line { 'Turn off passwd auth':
   path    => '/etc/ssh/ssh_config',
@@ -8,7 +8,6 @@ file_line { 'Turn off passwd auth':
 
 file_line { 'Declare identity file':
   path    => '/etc/ssh/ssh_config',
-  line    => '    IdentityFile ~/.ssh/holberton',
+  line    => '    IdentityFile ~/.ssh/school',
   replace => true
 }
-
